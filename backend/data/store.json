@@ -1,0 +1,225 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "name": "Yến Phạm",
+      "avatar": "YP",
+      "color": "pink",
+      "preview": "Dạ vâng, em gửi thông tin cho anh nhé.",
+      "time": "2 phút",
+      "channel": "Messenger",
+      "unread": 2,
+      "tag": "Chờ xử lý",
+      "online": true
+    },
+    {
+      "id": 2,
+      "name": "Tuấn Anh",
+      "avatar": "TA",
+      "color": "green",
+      "preview": "Cho mình hỏi về gói dịch vụ doanh nghiệp…",
+      "time": "8 phút",
+      "channel": "Website",
+      "unread": 0,
+      "tag": "Tư vấn",
+      "online": true
+    },
+    {
+      "id": 3,
+      "name": "Minh Phú Hoàng",
+      "avatar": "MH",
+      "color": "orange",
+      "preview": "Bên mình có hỗ trợ tích hợp API không ạ?",
+      "time": "12 phút",
+      "channel": "Zalo",
+      "unread": 1,
+      "tag": "Tiềm năng",
+      "online": false
+    },
+    {
+      "id": 4,
+      "name": "Oanh Khcooi",
+      "avatar": "OK",
+      "color": "purple",
+      "preview": "Cảm ơn bạn đã tư vấn rất chi tiết.",
+      "time": "23 phút",
+      "channel": "Messenger",
+      "unread": 0,
+      "tag": "Đã xử lý",
+      "online": false
+    },
+    {
+      "id": 5,
+      "name": "Nguyễn Lan",
+      "avatar": "NL",
+      "color": "blue",
+      "preview": "Mình muốn đặt lịch demo sản phẩm.",
+      "time": "31 phút",
+      "channel": "Website",
+      "unread": 0,
+      "tag": "Chờ xử lý",
+      "online": true
+    },
+    {
+      "id": 6,
+      "name": "Khánh Phương",
+      "avatar": "KP",
+      "color": "yellow",
+      "preview": "Cho mình xin bảng giá mới nhất nhé.",
+      "time": "45 phút",
+      "channel": "Zalo",
+      "unread": 0,
+      "tag": "Tư vấn",
+      "online": false
+    },
+    {
+      "id": 7,
+      "name": "Bùi Văn Chiến",
+      "avatar": "BC",
+      "color": "teal",
+      "preview": "Tôi đã nhận được tài liệu, cảm ơn!",
+      "time": "1 giờ",
+      "channel": "Messenger",
+      "unread": 0,
+      "tag": "Đã xử lý",
+      "online": false
+    }
+  ],
+  "messages": {
+    "1": [
+      {
+        "id": "m1",
+        "sender": "customer",
+        "text": "Xin chào, bên mình muốn tìm hiểu giải pháp chatbot AI để hỗ trợ chăm sóc khách hàng. Bạn có thể tư vấn thêm về các gói dịch vụ được không ạ?",
+        "time": "09:42"
+      },
+      {
+        "id": "m2",
+        "sender": "agent",
+        "text": "Chào Yến Phạm! Cảm ơn bạn đã quan tâm đến giải pháp. Mình rất sẵn lòng tư vấn. Bạn đang vận hành kênh chăm sóc khách hàng nào vậy ạ?",
+        "time": "09:44"
+      },
+      {
+        "id": "m3",
+        "sender": "customer",
+        "text": "Hiện tại bên mình có website và fanpage Facebook. Mỗi ngày khoảng 200–300 tin nhắn khách hàng ạ.",
+        "time": "09:46"
+      }
+    ]
+  },
+  "leads": [],
+  "scenarios": [
+    {
+      "id": "welcome",
+      "name": "Welcome",
+      "description": "Chào mừng khách mới",
+      "message": "Xin chào bạn! Mình có thể hỗ trợ gì cho bạn hôm nay?",
+      "published": true
+    },
+    {
+      "id": "product",
+      "name": "Tư vấn sản phẩm",
+      "description": "Giới thiệu giải pháp",
+      "message": "Bạn đang quan tâm đến giải pháp nào của A Lênh?",
+      "published": true,
+      "updatedAt": "2026-09-29T14:48:58.702Z"
+    },
+    {
+      "id": "care",
+      "name": "Chăm sóc khách hàng",
+      "description": "Sau mua hàng",
+      "message": "A Lênh có thể hỗ trợ bạn như thế nào?",
+      "published": true
+    },
+    {
+      "id": "support",
+      "name": "Hỗ trợ kỹ thuật",
+      "description": "Giải đáp thường gặp",
+      "message": "Bạn vui lòng mô tả vấn đề kỹ thuật đang gặp phải nhé.",
+      "published": true
+    }
+  ],
+  "visitors": [
+    {
+      "id": "v1",
+      "name": "Nguyễn Minh Anh",
+      "initials": "MA",
+      "country": "Việt Nam",
+      "city": "Hồ Chí Minh",
+      "page": "Trang chủ",
+      "time": "00:24",
+      "source": "Google",
+      "device": "Chrome · Windows",
+      "viewed": 4,
+      "color": "blue",
+      "requested": false,
+      "notes": []
+    },
+    {
+      "id": "v2",
+      "name": "Visitor 28491",
+      "initials": "28",
+      "country": "Singapore",
+      "city": "Singapore",
+      "page": "Bảng giá",
+      "time": "01:18",
+      "source": "Trực tiếp",
+      "device": "Safari · macOS",
+      "viewed": 6,
+      "color": "purple",
+      "requested": false,
+      "notes": []
+    },
+    {
+      "id": "v3",
+      "name": "Trần Gia Huy",
+      "initials": "GH",
+      "country": "Việt Nam",
+      "city": "Hà Nội",
+      "page": "Giải pháp AI",
+      "time": "02:41",
+      "source": "Facebook",
+      "device": "Chrome · Android",
+      "viewed": 3,
+      "color": "green",
+      "requested": false,
+      "notes": []
+    },
+    {
+      "id": "v4",
+      "name": "Visitor 73812",
+      "initials": "73",
+      "country": "Nhật Bản",
+      "city": "Tokyo",
+      "page": "Sản phẩm",
+      "time": "00:56",
+      "source": "Google",
+      "device": "Safari · iPhone",
+      "viewed": 2,
+      "color": "orange",
+      "requested": false,
+      "notes": []
+    },
+    {
+      "id": "v5",
+      "name": "Phạm Ngọc Mai",
+      "initials": "NM",
+      "country": "Việt Nam",
+      "city": "Đà Nẵng",
+      "page": "Liên hệ",
+      "time": "03:12",
+      "source": "Trực tiếp",
+      "device": "Chrome · Windows",
+      "viewed": 5,
+      "color": "pink",
+      "requested": false,
+      "notes": []
+    }
+  ],
+  "stats": {
+    "online": 53,
+    "chatsToday": 128,
+    "responseTime": "1m 42s",
+    "satisfaction": "96,8%"
+  }
+}
