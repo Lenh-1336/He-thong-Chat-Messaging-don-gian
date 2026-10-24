@@ -1,3 +1,9 @@
+# Thông tin sinh viên
+-Họ và Tên: Giàng A Lênh
+-Mã Sinh Viên: DTC245200363
+-GitHub: Lenh-1336
+-Dự án: Hệ thống chat/messaging đơn giản
+
 # A Lênh Conversation Platform
 
 ## Chạy ứng dụng trong môi trường phát triển
