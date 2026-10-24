@@ -75,3 +75,8 @@ Người dùng mới có thể chọn **Đăng ký ngay** bên dưới form đă
 - FROM wp_options
 - WHERE option_name IN ('siteurl', 'home');
 - EXIT;
+## Lệnh khởi động backend
+- cd ~/He-thong-Chat-Messaging-don-gian/backend
+- ls -la
+- npm install
+- node --env-file=.env server.js
