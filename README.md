@@ -31,9 +31,9 @@ Trong backend chạy `npm install` một lần. Lệnh `npm run dev` tự nạp 
 ```env
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=465
-SMTP_USER=your-sender@gmail.com
+SMTP_USER=dtc245200363@ictu.edu.vn
 SMTP_PASS=your-email-app-password
-SMTP_FROM=your-sender@gmail.com
+SMTP_FROM=dtc245200363@ictu.edu.vn
 ```
 
 SMTP dùng TLS trên cổng 465. Với Gmail, `SMTP_PASS` cần là mật khẩu ứng dụng. OTP gồm 6 chữ số, hết hạn sau 10 phút và tối đa 5 lần nhập.
@@ -54,3 +54,15 @@ Người dùng mới có thể chọn **Đăng ký ngay** bên dưới form đă
 - `GET /api/stats`
 - `POST /api/auth/register`, `PATCH /api/auth/profile`
 - Admin: `/api/admin/users`, `/api/admin/chats`, `/api/admin/stats` và các endpoint tài khoản/tin nhắn tương ứng; chỉ vai trò `admin` được truy cập.
+## Lệnh truy vấn database
+- cd ~/lab-monitoring
+- docker compose exec mysql mysql -u root -p
+- \dt
+- USE wordpress;
+- SELECT ID, user_login, user_email
+- FROM wp_users;
+- SELECT *FROM bang;
+- SELECT option_name, option_value
+- FROM wp_options
+- WHERE option_name IN ('siteurl', 'home');
+- EXIT;
