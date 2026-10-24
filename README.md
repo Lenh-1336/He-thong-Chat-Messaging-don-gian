@@ -80,3 +80,7 @@ Người dùng mới có thể chọn **Đăng ký ngay** bên dưới form đă
 - ls -la
 - npm install
 - node --env-file=.env server.js
+## Lệnh truy vấn loki
+- {container=~".+"}
+- {container=~".*nginx.*"}
+- sum(count_over_time({container="chat-app"} |= "ERROR" [5m]))
